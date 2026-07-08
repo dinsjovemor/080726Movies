@@ -6,6 +6,7 @@ namespace _080726Movies.Models
 {
     public class Genre
     {
+        //Properties of the Genre class:
         public string Name { get; set; } // Name of the genre (e.g., Action, Comedy, Drama)
         public string Tags { get; set; } // Tags associated with the genre (e.g., "Action, Adventure, Thriller")
 

@@ -6,6 +6,7 @@ namespace _080726Movies.Models
 {
     public class TypeOfMedia
     {
+        //Properties of the TypeOfMedia class:
         public string MediaType { get; set; } // Type of media (e.g., Movie, TV Show, Documentary)
         public string ProductionCompany { get; set; } // Production company of the media
         public string Title { get; set; } // Title of the movie
