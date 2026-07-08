@@ -6,7 +6,7 @@ namespace _080726Movies.Models
 {
     public class Role
     {
-        public string Title { get; set; } // Title of the role (e.g., Director, Actor, Actress, Writer, Lead, Supporting, Cameo)
+        public string RoleTitle { get; set; } // Title of the role (e.g., Director, Actor, Actress, Writer, Lead, Supporting, Cameo)
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Gender { get; set; }
